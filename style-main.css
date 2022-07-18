@@ -1,0 +1,224 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    /* background-color:cadetblue; */
+    background-image: url(img/img-03.jpg);
+    background-size: cover;
+}
+
+.common-field {
+    padding: 5px;
+    display: block;
+    margin: 10px;
+}
+
+.common-field-one {
+    padding: 5px;
+    display: block;
+    margin: 10px;
+}
+
+#main-container {
+    margin: 40px 0 0 50px;
+    background-color: rgb(236, 236, 236);
+    width: 350px;
+    height: 565px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgb(41, 41, 41);
+}
+
+#container-sub-chk {
+    margin: 15px 0 20px 0;
+
+}
+
+#button {
+    margin: 5px 0 20px 0;
+    width: 222px;
+    padding: 5px;
+    background-color: rgb(208, 167, 255);
+    border: 1px solid rgb(224, 224, 224);
+    color: black;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;   
+
+}
+
+#button:hover {
+    box-shadow: 0 0 2px grey;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+#button-back {
+    
+    border: 1px solid grey;
+    padding: 5px 51px;
+    text-decoration: none;
+    background-color: rgb(208, 167, 255);
+    border: 1px solid rgb(224, 224, 224);
+    color: black;
+    font-size: 13px; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+#button-back:hover {
+    box-shadow: 0 0 2px grey;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px
+}
+
+.input {
+    width: 80px;
+    height: 20px;
+}
+
+.input-inv {
+    text-align: right;
+    width: 150px;
+    padding: 2px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom: 1px solid grey;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+}
+
+.input-inv:focus {
+    outline: none;
+
+}
+
+#div-one {
+    display: inline-block;
+    width: 100px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#div-two {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+#three {
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+
+#four {
+    display: inline-block;
+    
+}
+
+
+#five-sub-one {
+    display: inline-block;
+    width: 160px;
+    
+}
+
+#five-sub-two {
+    display: inline-block;
+}
+
+#six-sub-one {
+    display: inline-block;
+    width: 160px;
+    
+}
+
+#six-sub-two {
+    display: inline-block;
+    
+}
+
+#seven {
+    display: inline-block;
+    width: 160px;
+}
+
+#eight {
+    display: inline-block;
+    margin-bottom: 0;  
+}
+
+#amnt-final, #amnt-vat, #amnt-tax, #amnt-tax-one {
+    width: 100px;
+    background-color: rgb(211, 211, 211);
+    border: none;
+    font-size: 13px;
+
+}
+
+#amnt-final:focus, #amnt-vat:focus, #amnt-tax:focus, #amnt-tax-one:focus{
+    outline: none;
+
+}
+
+#rate-tax {
+    text-align: right;
+    width: 70px;
+    padding: 2px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom: 1px solid grey;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#rate-tax:focus, #rate-vat:focus {
+    outline:none;
+    
+
+}
+
+#rate-vat {
+    text-align: right;
+    width: 70px;
+    padding: 2px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom: 1px solid grey;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+#text_final {
+    margin-bottom: 30px;
+    padding: 0;
+    color: blue;
+    font-style: italic;
+    
+}
+
+

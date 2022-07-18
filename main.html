@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="style-main.css" rel="stylesheet">
+    <title>VAT & TAX Calculator</title>
+</head>
+<body>
+
+    <div id="main-container">
+
+        <h2>Welcome!</h2>
+        
+        <label class="label" for="inv-amount-name">Invoice Amount in BDT</label>
+        <input class="input input-inv" id="inv-amount" class="common-field" type="number" name="inv-amount-name" min="0" max="100000000" step="0.00" autofocus>
+
+        
+        <div id="container-sub-chk">
+            <div id="three">
+                <label class="label-chk" for="chk-tax-name">Including TAX</label>
+                <input class="input-chk" id="chk-tax" class="chk-field" type="checkbox" name="chk-tax-name">
+            </div>
+            <div id="four">
+                <label class="label-chk" for="chk-vat-name">Including VAT</label>
+                <input class="input-chk" id="chk-vat" class="chk-field" type="checkbox" name="chk-vat-name">
+            </div>
+        
+        </div>
+
+
+        <div id="div-one">
+            <label class="label" for="rate-tax-name">TAX Rate (in %)</label>
+            <input class="input" id="rate-tax" class="common-field" type="number" name="rate-tax-name">
+        </div>
+
+        <div id="div-two">
+            <label class="label" for="rate-vat-name">VAT Rate (in %)</label>
+            <input class="input" id="rate-vat" class="common-field" type="number" name="rate-vat-name">
+        </div>
+
+        <form id="form-submit">
+            <input id="button" type="submit">
+        </form>
+
+        <!-- output start -->
+
+        <div id="five">
+            <div id=five-sub-one>
+                <label for="amnt-tax-name">Tax Amount (in BDT) -</label>
+            </div>
+            <div id=five-sub-two>
+                <input id="amnt-tax" class="common-field" type="number" name="amnt-tax-name" readonly>
+            </div>
+        </div>
+
+        <!-- additional start -->
+        <div id="five-sub">
+            <div id="five-sub-one">
+                <label for="amnt-tax-name-one">Amount incl. Tax (in BDT) -</label>
+            </div>
+            <div id="five-sub-two">
+                <input id="amnt-tax-one" class="common-field-one" type="number" name="amnt-tax-name-one" readonly>
+            </div>
+        </div>
+        <!-- additional end -->
+
+
+        <div id="six">
+            <div id="six-sub-one">
+                <label for="amnt-vat-name">VAT Amount (in BDT) -</label>
+            </div>
+            <div id="six-sub-two">
+                <input id="amnt-vat" class="common-field" type="number" name="amnt-vat-name" readonly>
+            </div>
+        </div>  
+
+        <div id="seven">
+            <label for="amnt-final-name">Final Amount (in BDT) -</label>
+        </div>
+        <div id="eight">
+            <input id="amnt-final" class="common-field" type="number" name="amnt-final-name" readonly>
+        </div>
+
+        <p id="text_final">.</p>
+
+        <a id="button-back" href="index.html" onclick="myFunc()">Logout</a> 
+        <a id="button-back" onclick="myFunction()">Reset</a> 
+
+    </div>
+
+    <script src="app-main.js"></script>
+
+    
+</body>
+</html>
