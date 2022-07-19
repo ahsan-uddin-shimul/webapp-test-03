@@ -17,6 +17,9 @@ function myFunction(){
     if(userId == 'ahsan' && password == 'ahs123'){
         window.location.replace("main.html");
     }
+    else if(userId == 'user' && password == 'user123'){
+        window.location.replace("main.html");
+    }
     else {
         window.alert('Credential incorrect!');
     }
