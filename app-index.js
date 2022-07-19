@@ -21,6 +21,6 @@ function myFunction(){
         window.location.replace("main.html");
     }
     else {
-        window.alert('Credential incorrect!');
+        window.alert('Error! Incorrect Id or Password!!');
     }
 }
